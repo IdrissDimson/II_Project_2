@@ -743,9 +743,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 609.0, 369.5, 116.0, 23.0 ],
+					"patching_rect" : [ 541.0, 369.5, 134.0, 23.0 ],
 					"style" : "",
-					"text" : "frgb 255 255 2555"
+					"text" : "frgb 255 255 255"
 				}
 
 			}
@@ -815,7 +815,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 73.0, 394.5, 320.0, 240.0 ]
+					"patching_rect" : [ 73.0, 400.5, 320.0, 240.0 ]
 				}
 
 			}
@@ -838,42 +838,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
-					"id" : "obj-130",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 409.0, 195.0, 166.0, 23.0 ],
-					"style" : "",
-					"text" : "drawpict myimage 0 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-131",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 409.0, 320.0, 126.0, 23.0 ],
-					"style" : "",
-					"text" : "deletepict myimage"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
 					"id" : "obj-132",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 409.0, 230.0, 200.0, 23.0 ],
+					"patching_rect" : [ 409.0, 198.5, 200.0, 23.0 ],
 					"style" : "",
 					"text" : "drawpict myimage 0 0 320 240"
 				}
@@ -888,24 +858,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 609.0, 230.0, 317.0, 25.0 ],
+					"patching_rect" : [ 611.0, 198.5, 317.0, 25.0 ],
 					"style" : "",
 					"text" : "Draw the image at a specific location and scale it"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-123",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 565.0, 192.0, 303.0, 25.0 ],
-					"style" : "",
-					"text" : "Draw the image (full size) at a specific location"
 				}
 
 			}
@@ -921,22 +876,6 @@
 					"patching_rect" : [ 626.0, 160.0, 271.0, 25.0 ],
 					"style" : "",
 					"text" : "Read an image file from disk and name it"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-119",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 535.0, 320.0, 177.0, 40.0 ],
-					"style" : "",
-					"text" : "Delete a specific pict\n(Click clear to redraw)"
 				}
 
 			}
@@ -1005,22 +944,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
-					"midpoints" : [ 418.5, 357.5, 82.5, 357.5 ],
-					"source" : [ "obj-130", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-98", 0 ],
-					"midpoints" : [ 418.5, 357.5, 82.5, 357.5 ],
-					"source" : [ "obj-131", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-98", 0 ],
 					"midpoints" : [ 418.5, 356.0, 82.5, 356.0 ],
 					"source" : [ "obj-132", 0 ]
 				}
@@ -1037,7 +960,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
-					"midpoints" : [ 618.5, 393.0, 405.0, 393.0, 405.0, 360.0, 82.5, 360.0 ],
+					"midpoints" : [ 550.5, 393.0, 405.0, 393.0, 405.0, 360.0, 82.5, 360.0 ],
 					"source" : [ "obj-134", 0 ]
 				}
 
